@@ -6,7 +6,7 @@
 
   <groupId>xyz.dcaron.bridges</groupId>
   <artifactId>RetractableBridges</artifactId>
-  <version>1.1.1-SNAPSHOT</version>
+  <version>1.21</version>
 
   <name>RetractableBridges</name>
   <!-- FIXME change it to the project's website -->
