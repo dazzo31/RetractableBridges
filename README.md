@@ -4,7 +4,7 @@ Build redstone powered retractable bridges, without using commands!
 
 ## Compatibility
 
-- Minecraft 1.21.8 (Spigot/Paper)
+- Minecraft 1.21.10 (Spigot/Paper)
 - Requires Java 21
 - Compatible with Experimental Redstone datapack
 
