@@ -6,6 +6,7 @@ Build redstone powered retractable bridges, without using commands!
 
 - Minecraft 1.21.8 (Spigot/Paper)
 - Requires Java 21
+- Compatible with Experimental Redstone datapack
 
 ## Features
 
@@ -30,6 +31,13 @@ Build redstone powered retractable bridges, without using commands!
 ## Configuration
 
 See the `config.yml` folder for a description of the configurable options.
+
+## Changelog
+
+### Version 1.22
+- Added compatibility with Minecraft's Experimental Redstone datapack
+- Improved redstone event handling to properly detect power state transitions
+- Fixed bridge activation logic for experimental redstone power level changes
 
 ## Feedback
 

@@ -1,4 +1,4 @@
 name: RetractableBridges
-version: 1.0.0
+version: 1.22
 main: xyz.dcaron.bridges.BridgesPlugin
 api-version: 1.19

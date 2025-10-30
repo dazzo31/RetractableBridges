@@ -37,7 +37,11 @@ public class BridgeBlockListener implements Listener {
     @EventHandler(priority = EventPriority.MONITOR)
     public void onRedstoneBlockChange(final BlockRedstoneEvent event) {
         final Block block = event.getBlock();
-        final boolean isPowerOn = event.getOldCurrent() == 0;
+        final int oldCurrent = event.getOldCurrent();
+        final int newCurrent = event.getNewCurrent();
+        
+        // Experimental redstone compatibility: handle both power increase and decrease
+        final boolean isPowerOn = oldCurrent < newCurrent;
 
         if (!this.isPowerOnOrOffEvent(event)) {
             return;
@@ -246,7 +250,12 @@ public class BridgeBlockListener implements Listener {
     }
 
     private boolean isPowerOnOrOffEvent(final BlockRedstoneEvent event) {
-        return event.getOldCurrent() == 0 || !(event.getNewCurrent() == 0);
+        final int oldCurrent = event.getOldCurrent();
+        final int newCurrent = event.getNewCurrent();
+        
+        // Experimental redstone compatibility: detect any power level change
+        // that crosses the threshold between powered (>0) and unpowered (0)
+        return (oldCurrent == 0 && newCurrent > 0) || (oldCurrent > 0 && newCurrent == 0);
     }
 
 }
