@@ -1,5 +1,8 @@
 # Retractable Bridges
 
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=flat&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/dazzo31)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-dazzo31-orange?style=flat&logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/dazzo31)
+
 Build redstone powered retractable bridges, without using commands!
 
 ## Compatibility
@@ -42,3 +45,12 @@ See the `config.yml` folder for a description of the configurable options.
 ## Feedback
 
 This plugin is a fork of Captain Chao's Rectractable Bridges updated to work with modern Minecraft. Please leave an issue on Github if there are any bugs with this new adaption.
+
+---
+
+## 💖 Support & Sponsorship
+
+If Retractable Bridges has helped your Minecraft server or saved you time, consider supporting ongoing development:
+
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor%20on%20GitHub-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/dazzo31)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/dazzo31)
